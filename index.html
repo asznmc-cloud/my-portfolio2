@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasira Yapun | IT Portfolio</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: linear-gradient(135deg, #7d55cc, #5a086e);
+      color: white;
+      padding: 80px 20px;
+    }
+    .section-title {
+      color: #8066b3;
+      font-weight: 600;
+    }
+    .profile-box {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: #eaeaea;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #777;
+      margin: auto;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+    footer {
+      background-color: #5c3870;
+      color: white;
+    }
+
+    .PPA{
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero text-center">
+  <div class="container">
+    <div class="profile-box mb-4">
+
+      <img class="PPA" src="po.jpg" alt="#"><br>
+    </div>
+    <h1 class="fw-bold">นางสาวกษิรา ยะพันธ์</h1>
+    <h5 class="fw-light">Kasira Yapun</h5>
+    <p class="mt-3">
+      โรงเรียนบุญวาทย์วิทยาลัย จังหวัดลำปาง<br>
+      แผนการเรียน วิทยาศาสตร์ – คณิตศาสตร์ – คอมพิวเตอร์
+    </p>
+    <p class="fst-italic mt-4">
+      “เทคโนโลยีไม่ใช่แค่เครื่องมือ แต่คือโอกาสในการสร้างสิ่งที่ทำให้สังคมดีขึ้น”
+    </p>
+    <h6 class="mt-4">
+      เป้าหมาย: สมัครศึกษาต่อสาขาเทคโนโลยีสารสนเทศ (IT)<br>
+      มหาวิทยาลัยเชียงใหม่
+    </h6>
+  </div>
+</section>
+
+<!-- ABOUT / MOTIVATION -->
+<section class="container py-5">
+  <h2 class="section-title mb-4">Interest & Motivation in IT</h2>
+  <p>
+    ดิฉันมีความสนใจด้านเทคโนโลยีสารสนเทศ เนื่องจากเทคโนโลยีมีบทบาทใกล้ตัวและสามารถช่วยแก้ปัญหาในชีวิตประจำวันได้
+    เมื่อได้เรียนรู้การใช้คอมพิวเตอร์และการเขียนโปรแกรมเบื้องต้น ดิฉันรู้สึกสนุกกับการคิดอย่างเป็นขั้นตอน
+    และการสร้างผลงานที่สามารถนำไปใช้งานได้จริง
+  </p>
+  <p>
+    ดิฉันจึงมีความตั้งใจที่จะศึกษาต่อในสาขาด้านไอที เพื่อพัฒนาความรู้และทักษะให้มากยิ่งขึ้น
+    และในอนาคตต้องการนำความรู้ด้านไอทีไปพัฒนาระบบหรือแอปพลิเคชันที่เป็นประโยชน์ต่อสังคม
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title mb-4">IT Projects & Achievements</h2>
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">ระบบคำนวณเกรดนักเรียน</h5>
+            <p class="card-text">พัฒนาโปรแกรมเพื่อช่วยคำนวณเกรดอัตโนมัติ</p>
+            <button class="btn btn-sm btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#p1">
+              ดูรายละเอียด
+            </button>
+            <div class="collapse mt-3" id="p1">
+              <ul>
+                <li>เครื่องมือ: Python, VS Code</li>
+                <li>บทบาท: เขียนโค้ดคำนวณเงื่อนไข</li>
+                <li>สิ่งที่ได้เรียนรู้: การแก้ปัญหาอย่างเป็นขั้นตอน</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">เว็บไซต์แนะนำสถานที่ท่องเที่ยว</h5>
+            <p class="card-text">เว็บไซต์ให้ข้อมูลสถานที่ท่องเที่ยว</p>
+            <button class="btn btn-sm btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#p2">
+              ดูรายละเอียด
+            </button>
+            <div class="collapse mt-3" id="p2">
+              <ul>
+                <li>เครื่องมือ: HTML, CSS</li>
+                <li>บทบาท: ออกแบบและพัฒนาเว็บ</li>
+                <li>สิ่งที่ได้เรียนรู้: โครงสร้างเว็บไซต์</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">เกมตอบคำถามความรู้ทั่วไป</h5>
+            <p class="card-text">เกมเพื่อฝึกการคิดและเขียนโปรแกรม</p>
+            <button class="btn btn-sm btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#p3">
+              ดูรายละเอียด
+            </button>
+            <div class="collapse mt-3" id="p3">
+              <ul>
+                <li>เครื่องมือ: Scratch</li>
+                <li>สิ่งที่ได้เรียนรู้: เงื่อนไขและลำดับคำสั่ง</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">ระบบบันทึกข้อมูลนักเรียน</h5>
+            <p class="card-text">ออกแบบระบบจัดเก็บข้อมูลนักเรียน</p>
+            <button class="btn btn-sm btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#p4">
+              ดูรายละเอียด
+            </button>
+            <div class="collapse mt-3" id="p4">
+              <ul>
+                <li>เครื่องมือ: Python, CSV</li>
+                <li>สิ่งที่ได้เรียนรู้: การจัดการข้อมูล</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CMU -->
+<section class="container py-5">
+  <h2 class="section-title mb-4">Why Chiang Mai University?</h2>
+  <p>
+    ดิฉันเลือกมหาวิทยาลัยเชียงใหม่ เนื่องจากเป็นมหาวิทยาลัยที่มีความโดดเด่นด้านวิชาการ
+    โดยเฉพาะสาขาเทคโนโลยีสารสนเทศ ซึ่งมีหลักสูตรที่ตอบโจทย์เป้าหมายในอนาคต
+    และช่วยเตรียมความพร้อมสู่การทำงานในสายอาชีพด้านไอทีอย่างมีคุณภาพ
+  </p>
+</section>
+
+<!-- CONTACT -->
+<footer class="py-4 text-center">
+  <p class="mb-1">Contact</p>
+  <p class="mb-0">
+    Email: your-email@email.com | GitHub / Google Drive Portfolio
+  </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
